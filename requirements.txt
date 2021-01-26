@@ -1,0 +1,5 @@
+qiwipy
+requests
+bipwallet
+colorama
+bit

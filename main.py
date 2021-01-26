@@ -177,7 +177,7 @@ def handler(message):
 						else:
 							money = int(args[3])
 
-						if args[4].isdigit() and int(args[4]) > 1000:
+						if args[4].isdigit() and int(args[4]) >= 1000:
 							fee = int(args[4])
 
 							response = bitcoin.send(wallet, money, fee, currency)

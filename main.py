@@ -34,7 +34,7 @@ def logout():
 
 def main():
 	system("clear")
-	print(f"Используйте команду 'help' для просмотра команд. [{version}, OVNL.IN]")
+	print(f"Используйте команду 'help' для просмотра команд. [{version}]")
 
 	try:
 		while True:
